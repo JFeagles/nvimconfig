@@ -1,2 +1,1 @@
 require("jota")
-print("hello")

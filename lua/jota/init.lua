@@ -1,2 +1,3 @@
 require("jota.remap")
-print("hello from jota")
+require("jota.set")
+
