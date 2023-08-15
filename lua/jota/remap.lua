@@ -1,4 +1,5 @@
 vim.g.mapleader = " "
+-- netrw
 vim.keymap.set("n", "<leader>ft", vim.cmd.Ex)
 
 -- auto indent
@@ -18,5 +19,3 @@ vim.keymap.set("n", "<C-l>", vim.cmd.bnext)
 vim.keymap.set("n", "<C-h>", vim.cmd.bprev)
 vim.keymap.set("n","<C-w>", vim.cmd.bdelete)
 
--- file tree
-vim.keymap.set("n", "<leader>fd",vim.cmd.NvimTreeToggle)
