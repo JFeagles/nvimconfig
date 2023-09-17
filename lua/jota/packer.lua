@@ -56,4 +56,8 @@ return require('packer').startup(function(use)
     use "RRethy/vim-illuminate"
     use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
     use "lewis6991/gitsigns.nvim"
+    use({
+        "jose-elias-alvarez/null-ls.nvim",
+        requires = { "nvim-lua/plenary.nvim" },
+    })
 end)
